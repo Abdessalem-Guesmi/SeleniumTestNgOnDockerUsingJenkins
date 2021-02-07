@@ -2,12 +2,12 @@
 <testng-results skipped="1" failed="1" ignored="0" total="4" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="65921" started-at="2021-02-06T20:50:22Z" finished-at="2021-02-06T20:51:28Z">
+  <suite name="Suite" duration-ms="40886" started-at="2021-02-07T20:07:08Z" finished-at="2021-02-07T20:07:49Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="65921" started-at="2021-02-06T20:50:22Z" finished-at="2021-02-06T20:51:28Z">
+    <test name="Test" duration-ms="40886" started-at="2021-02-07T20:07:08Z" finished-at="2021-02-07T20:07:49Z">
       <class name="test.Test1">
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:test.Test1@490ab905]" name="setUp" is-config="true" duration-ms="13291" started-at="2021-02-06T20:50:22Z" finished-at="2021-02-06T20:50:36Z">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:test.Test1@490ab905]" name="setUp" is-config="true" duration-ms="12549" started-at="2021-02-07T20:07:08Z" finished-at="2021-02-07T20:07:21Z">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="test1()[pri:1, instance:test.Test1@490ab905]" name="test1" duration-ms="5818" started-at="2021-02-06T20:50:36Z" finished-at="2021-02-06T20:50:42Z">
+        <test-method status="FAIL" signature="test1()[pri:1, instance:test.Test1@490ab905]" name="test1" duration-ms="3049" started-at="2021-02-07T20:07:21Z" finished-at="2021-02-07T20:07:24Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[the title contains not Test0 expected [true] but found [false]]]>
@@ -60,11 +60,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.Test1@490ab905]" name="tearDown" is-config="true" duration-ms="123" started-at="2021-02-06T20:50:42Z" finished-at="2021-02-06T20:50:42Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.Test1@490ab905]" name="tearDown" is-config="true" duration-ms="91" started-at="2021-02-07T20:07:24Z" finished-at="2021-02-07T20:07:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:test.Test1@490ab905]" name="setUp" is-config="true" duration-ms="14328" started-at="2021-02-06T20:50:42Z" finished-at="2021-02-06T20:50:56Z">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:test.Test1@490ab905]" name="setUp" is-config="true" duration-ms="3530" started-at="2021-02-07T20:07:24Z" finished-at="2021-02-07T20:07:27Z">
           <params>
             <param index="0">
               <value>
@@ -75,15 +75,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="test2()[pri:2, instance:test.Test1@490ab905]" name="test2" duration-ms="4929" started-at="2021-02-06T20:50:56Z" finished-at="2021-02-06T20:51:01Z">
+        <test-method status="PASS" signature="test2()[pri:2, instance:test.Test1@490ab905]" name="test2" duration-ms="3220" started-at="2021-02-07T20:07:27Z" finished-at="2021-02-07T20:07:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.Test1@490ab905]" name="tearDown" is-config="true" duration-ms="703" started-at="2021-02-06T20:51:01Z" finished-at="2021-02-06T20:51:02Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.Test1@490ab905]" name="tearDown" is-config="true" duration-ms="67" started-at="2021-02-07T20:07:31Z" finished-at="2021-02-07T20:07:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:test.Test1@490ab905]" name="setUp" is-config="true" duration-ms="6596" started-at="2021-02-06T20:51:02Z" finished-at="2021-02-06T20:51:08Z">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:test.Test1@490ab905]" name="setUp" is-config="true" duration-ms="4261" started-at="2021-02-07T20:07:31Z" finished-at="2021-02-07T20:07:35Z">
           <params>
             <param index="0">
               <value>
@@ -94,7 +94,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="test3()[pri:3, instance:test.Test1@490ab905]" name="test3" duration-ms="9045" started-at="2021-02-06T20:51:08Z" finished-at="2021-02-06T20:51:17Z">
+        <test-method status="SKIP" signature="test3()[pri:3, instance:test.Test1@490ab905]" name="test3" duration-ms="3781" started-at="2021-02-07T20:07:35Z" finished-at="2021-02-07T20:07:39Z">
           <exception class="org.testng.SkipException">
             <message>
               <![CDATA[test-case skipped]]>
@@ -133,11 +133,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test3 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.Test1@490ab905]" name="tearDown" is-config="true" duration-ms="76" started-at="2021-02-06T20:51:17Z" finished-at="2021-02-06T20:51:17Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.Test1@490ab905]" name="tearDown" is-config="true" duration-ms="89" started-at="2021-02-07T20:07:39Z" finished-at="2021-02-07T20:07:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:test.Test1@490ab905]" name="setUp" is-config="true" duration-ms="5976" started-at="2021-02-06T20:51:17Z" finished-at="2021-02-06T20:51:23Z">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:test.Test1@490ab905]" name="setUp" is-config="true" duration-ms="5526" started-at="2021-02-07T20:07:39Z" finished-at="2021-02-07T20:07:44Z">
           <params>
             <param index="0">
               <value>
@@ -148,11 +148,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="test4()[pri:4, instance:test.Test1@490ab905]" name="test4" duration-ms="4921" started-at="2021-02-06T20:51:23Z" finished-at="2021-02-06T20:51:28Z">
+        <test-method status="PASS" signature="test4()[pri:4, instance:test.Test1@490ab905]" name="test4" duration-ms="4606" started-at="2021-02-07T20:07:44Z" finished-at="2021-02-07T20:07:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test4 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.Test1@490ab905]" name="tearDown" is-config="true" duration-ms="66" started-at="2021-02-06T20:51:28Z" finished-at="2021-02-06T20:51:28Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.Test1@490ab905]" name="tearDown" is-config="true" duration-ms="64" started-at="2021-02-07T20:07:49Z" finished-at="2021-02-07T20:07:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
